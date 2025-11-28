@@ -1,0 +1,16 @@
+/* TAILWIND CORE */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ANIMAÇÕES EXTRAS (caso use) */
+@import "tw-animate-css";
+
+/* Correção de layout — evita o deslocamento que você mostrou */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a; /* slate-900 */
+}
